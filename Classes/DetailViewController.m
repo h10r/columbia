@@ -74,7 +74,9 @@
     CGAffineTransform rotate = CGAffineTransformMakeRotation(-M_PI/2);
     rotate = CGAffineTransformScale(rotate, 0.25, 2.0);
     [circleOfFifthPicker setTransform:rotate];
-    [circleOfFifthPicker setCenter:CGPointMake(158, 196+10)];
+    //[circleOfFifthPicker setCenter:CGPointMake(158, 196+10)];
+    [circleOfFifthPicker setCenter:CGPointMake(130, 196+10)];
+    
     
     [circleOfFifthPicker setShowsSelectionIndicator:YES];
     [self.view addSubview:circleOfFifthPicker];
