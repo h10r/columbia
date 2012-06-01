@@ -110,7 +110,7 @@
 		28D7ACF60DDB3853001CB0EB /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* Columbia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; path = Columbia_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Columbia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Columbia_Prefix.pch; sourceTree = "<group>"; };
 		7BAA29911212690D00BF4296 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		7BAA29951212691700BF4296 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7BAA29D912126BFA00BF4296 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -139,7 +139,7 @@
 		7BACBACC1211DE8E005E8F00 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#7.caf"; sourceTree = "<group>"; };
 		7BACBACD1211DE8E005E8F00 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano G#9.caf"; sourceTree = "<group>"; };
 		7BACBACE1211DE8E005E8F00 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Piano.plist; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Columbia-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; path = "Columbia-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Columbia-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Columbia-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		97013F991557FF6D00AA8762 /* SetTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTemplateViewController.h; sourceTree = "<group>"; };
 		97013F9A1557FF6D00AA8762 /* SetTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTemplateViewController.m; sourceTree = "<group>"; };
 		97013FAE15580D0000AA8762 /* MetronomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetronomeViewController.h; sourceTree = "<group>"; };

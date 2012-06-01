@@ -855,6 +855,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BtZ-T9-hyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <splitViewController id="SkW-Fh-3Wi" customClass="SplitViewController" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <segue destination="LSu-oi-YFI" kind="relationship" relationship="detailViewController" id="eaG-Hd-TCa"/>
                         <segue destination="VaG-WZ-dXN" kind="relationship" relationship="masterViewController" id="ZC7-Mt-IZv"/>
