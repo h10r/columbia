@@ -49,11 +49,14 @@
     if (delegate.mode == 1) {
         circleOfFifths = [[NSArray alloc] 
                           initWithObjects: @"A", @"E", @"B", @"F#", @"C#", 
-                          @"G#", @"Eb", @"Bb", @"F", @"C", @"G", @"D", nil];
+                          @"G#", @"D#", @"A#", @"Ab", @"Eb", @"Bb", @"F",
+                          @"C", @"G", @"D", nil];        
+        
     } else {
         circleOfFifths = [[NSArray alloc] 
                           initWithObjects: @"C", @"G", @"D", @"A", @"E", 
-                          @"B", @"Gb", @"Db", @"Ab", @"Eb", @"Bb", @"F", nil];
+                          @"B", @"F#", @"C#", @"B", @"Gb", @"Db", @"Ab",
+                          @"Eb", @"Bb", @"F", nil];        
     }
     
     circleOfFifthsCount = [circleOfFifths count];
@@ -116,7 +119,9 @@
         }
     }
     
-    NSLog(@"%i", rightIndex);
+    //[circleOfFifthPicker selectedRowInComponent:rightIndex + ( 3*([circleOfFifths count]-1) )];
+    //[circleOfFifthPicker selectedRowInComponent:rightIndex];
+    [circleOfFifthPicker selectRow:rightIndex + ( 3*([circleOfFifths count]) ) inComponent:0 animated:YES];
 }
 
 - (void)viewDidUnload
@@ -177,13 +182,16 @@
 }
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    NSString *newKey = (NSString *)[circleOfFifths objectAtIndex:(row%12)];
-    
+    NSString *newKey = (NSString *)[circleOfFifths objectAtIndex:(row%[circleOfFifths count])];    
     delegate.modulateKey = newKey;
-    
     [[NSNotificationCenter defaultCenter] postNotificationName: @"modulateKey" 
                                                         object: nil 
                                                       userInfo: nil];
+    [lblCurrentKey setText:[NSString stringWithFormat: @"%@ %@", 
+                            delegate.currentNoteAndMode,
+                            [delegate.sharedModeNames objectAtIndex:delegate.mode]]
+     ];
+
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
