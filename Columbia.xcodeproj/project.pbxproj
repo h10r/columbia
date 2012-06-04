@@ -45,6 +45,7 @@
 		972EFFFC155D11D3006CEC11 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 972EFFFB155D11D3006CEC11 /* arrow.png */; };
 		972EFFFF155D1359006CEC11 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 972EFFFE155D1359006CEC11 /* wrong.png */; };
 		973D7A4715495A040054E8EF /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973D7A4615495A040054E8EF /* SplitViewController.m */; };
+		9748FE331578C50600275F69 /* newbgcircle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9748FE321578C50600275F69 /* newbgcircle.jpg */; };
 		9750B7741560DF0500E2B109 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9750B7731560DF0500E2B109 /* HelpViewController.m */; };
 		9750B77A1560EDFF00E2B109 /* metronome.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9750B7791560EDFF00E2B109 /* metronome.caf */; };
 		97677936153F555900946DE1 /* subtonic-chord-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 97677919153F555900946DE1 /* subtonic-chord-pressed.png */; };
@@ -149,6 +150,7 @@
 		972EFFFE155D1359006CEC11 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
 		973D7A4515495A040054E8EF /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
 		973D7A4615495A040054E8EF /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		9748FE321578C50600275F69 /* newbgcircle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newbgcircle.jpg; sourceTree = "<group>"; };
 		9750B7721560DF0500E2B109 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = Classes/HelpViewController.h; sourceTree = "<group>"; };
 		9750B7731560DF0500E2B109 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = Classes/HelpViewController.m; sourceTree = "<group>"; };
 		9750B7791560EDFF00E2B109 /* metronome.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = metronome.caf; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 		97677918153F553F00946DE1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9748FE321578C50600275F69 /* newbgcircle.jpg */,
 				972EFFFB155D11D3006CEC11 /* arrow.png */,
 				972EFFFE155D1359006CEC11 /* wrong.png */,
 				976C7ACE1556CC8600A30848 /* select-highlight.png */,
@@ -603,6 +606,7 @@
 				97D6D5A7156CE6F1002D52F9 /* Icon@2x.png in Resources */,
 				97D6D5A9156CE872002D52F9 /* Default-Landscape@2x~ipad.png in Resources */,
 				97D6D5AB156CE887002D52F9 /* Start@2x.png in Resources */,
+				9748FE331578C50600275F69 /* newbgcircle.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,7 +35,15 @@
     noteNames = delegate.sharedNoteNames;
     modeNames = delegate.sharedModeNames;
     
-    [keyPickerView selectRow:delegate.note inComponent:0 animated:NO];
+    int selectedIndex = 0;
+    
+    for (int i=0; i < [noteNames count]; i++ ) {
+        if ( [delegate.currentNoteAndMode isEqualToString:[noteNames objectAtIndex:i] ] ) {
+            selectedIndex = i;
+        }
+    }
+    
+    [keyPickerView selectRow:selectedIndex inComponent:0 animated:NO];
     [keyPickerView selectRow:delegate.mode inComponent:1 animated:NO];
 }
 

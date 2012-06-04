@@ -248,13 +248,13 @@
 
 -(void) decideIfSharpOrFlat {
     NSString *currentNoteAndMode = delegate.currentNoteAndMode;
-    
-    // NSLog(@"%@", currentNoteAndMode);
+
+    //NSLog(@"%@", currentNoteAndMode);
     
     if (currentMode == 0) { // major
         NSArray *signMajorSharp = [[NSArray alloc] 
                                    initWithObjects:@"C", @"G", @"D", @"A", @"E", 
-                                   @"B", @"F#", nil];
+                                   @"B", @"F#", @"Gb", nil];
         
         notes = notesFlat;
                 
@@ -266,8 +266,8 @@
         }
     } else {
         NSArray *signMinorSharp = [[NSArray alloc] 
-                                   initWithObjects:@"A", @"E", @"B", @"F#", @"C#", 
-                                   @"G#", @"D#", nil];
+                                   initWithObjects:@"A", @"E", @"B", @"F#", @"Gb", @"C#",
+                                   @"Db", @"G#", @"Ab", @"D#", @"Eb", nil];
         notes = notesFlat;
         for (NSString *s in signMinorSharp) {
             if ( [currentNoteAndMode isEqualToString:s] ) {
@@ -283,6 +283,7 @@
     if ( [currentNoteAndMode rangeOfString:@"b"].length > 0) {
         notes = notesFlat;
     }
+
     
     if (delegate.showName) {
         [self setButtonsAsNames];

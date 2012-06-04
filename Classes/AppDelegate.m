@@ -86,4 +86,8 @@
     return true;
 }
 
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+
+}
+
 @end

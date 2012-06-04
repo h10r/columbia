@@ -2,13 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Be My Baby</key>
+	<key>Pop Song</key>
 	<array>
-		<integer>0</integer>
 		<integer>0</integer>
 		<integer>1</integer>
 		<integer>4</integer>
-		<integer>4</integer>
 		<integer>5</integer>
 		<integer>4</integer>
 		<integer>5</integer>
@@ -18,36 +16,51 @@
 		<integer>1</integer>
 		<integer>4</integer>
 	</array>
-	<key>Great Balls of Fire</key>
+	<key>Rock'n'Roll</key>
 	<array>
 		<integer>0</integer>
 		<integer>3</integer>
 		<integer>4</integer>
 		<integer>3</integer>
 		<integer>0</integer>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>0</integer>
-		<integer>3</integer>
 		<integer>3</integer>
 		<integer>4</integer>
+		<integer>3</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
 	</array>
-	<key>Hallelujah</key>
+	<key>Religious</key>
 	<array>
-		<integer>5</integer>
 		<integer>5</integer>
 		<integer>1</integer>
 		<integer>3</integer>
-		<integer>3</integer>
 		<integer>4</integer>
+		<integer>5</integer>
+		<integer>1</integer>
+		<integer>3</integer>
+		<integer>4</integer>        
 		<integer>0</integer>
 		<integer>5</integer>
 		<integer>3</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+		<integer>1</integer>
 		<integer>3</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+		<integer>1</integer>
+		<integer>3</integer>
+		<integer>4</integer>        
 		<integer>0</integer>
+		<integer>5</integer>
+		<integer>3</integer>
 		<integer>4</integer>
 	</array>
-	<key>House of the Rising Sun</key>
+	<key>American Folk</key>
 	<array>
 		<integer>0</integer>
 		<integer>2</integer>
@@ -66,20 +79,29 @@
 		<integer>4</integer>
 		<integer>0</integer>
 	</array>
-	<key>Imagine</key>
+	<key>Peace Inspiration</key>
 	<array>
 		<integer>0</integer>
 		<integer>3</integer>
 		<integer>0</integer>
 		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>2</integer>
+		<integer>0</integer>
+		<integer>2</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>0</integer>
 		<integer>3</integer>
 		<integer>4</integer>
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>0</integer>
 		<integer>2</integer>
+		<integer>0</integer>
 	</array>
-	<key>In my life</key>
+	<key>Melancholic Pop</key>
 	<array>
 		<integer>0</integer>
 		<integer>4</integer>
@@ -90,10 +112,20 @@
 		<integer>5</integer>
 		<integer>4</integer>
 		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+		<integer>4</integer>
 		<integer>3</integer>
+		<integer>4</integer>
 		<integer>0</integer>
 	</array>
-	<key>I want you (Love song)</key>
+	<key>Happy Love Song</key>
 	<array>
 		<integer>0</integer>
 		<integer>2</integer>
@@ -108,13 +140,16 @@
 		<integer>4</integer>
 		<integer>0</integer>
 	</array>
-	<key>Across the universe (Transcendental meditation)</key>
+	<key>Transcendental</key>
 	<array>
 		<integer>0</integer>
 		<integer>5</integer>
 		<integer>2</integer>
 		<integer>1</integer>
-		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>2</integer>
+		<integer>1</integer>
 		<integer>4</integer>
 		<integer>0</integer>
 		<integer>5</integer>
@@ -123,26 +158,23 @@
 		<integer>3</integer>
 		<integer>0</integer>
 		<integer>4</integer>
-		<integer>4</integer>
 		<integer>3</integer>
 		<integer>0</integer>
 		<integer>4</integer>
 		<integer>3</integer>
 		<integer>0</integer>
 	</array>
-	<key>Mr Brightside (Ballad)</key>
+	<key>Ballad</key>
 	<array>
 		<integer>0</integer>
 		<integer>6</integer>
 		<integer>5</integer>
 		<integer>3</integer>
 		<integer>0</integer>
-		<integer>0</integer>
 		<integer>6</integer>
 		<integer>5</integer>
 		<integer>3</integer>
 		<integer>0</integer>
-		<integer>0</integer>
 		<integer>3</integer>
 		<integer>5</integer>
 		<integer>4</integer>
@@ -155,33 +187,29 @@
 		<integer>5</integer>
 		<integer>4</integer>
 	</array>
-	<key>Adams Song (Sad Ballad)</key>
+	<key>Sad Love Song</key>
 	<array>
 		<integer>0</integer>
 		<integer>3</integer>
 		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
 		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		
 	</array>
-	<key>The Black Parade (Wistful Ballad)</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-	</array>
-	<key>RATM (Heavy Funky)</key>
+	<key>Heavy Funky</key>
 	<array>
 		<integer>0</integer>
 		<integer>3</integer>
@@ -195,19 +223,39 @@
 		<integer>3</integer>
 		<integer>0</integer>
 		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>0</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>3</integer>
+		<integer>0</integer>
+		<integer>4</integer>
 	</array>
-	<key>Take me out (Energetic)</key>
+	<key>Energetic Rock</key>
 	<array>
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
 		<integer>5</integer>
+		<integer>4</integer>		
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
 		<integer>5</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>5</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>5</integer>
+		<integer>0</integer>
 	</array>
-	<key>Radiohead (Creepy)</key>
+	<key>Creepy</key>
 	<array>
 		<integer>0</integer>
 		<integer>5</integer>
@@ -217,8 +265,24 @@
 		<integer>5</integer>
 		<integer>1</integer>
 		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>1</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>1</integer>
+		<integer>4</integer>
 	</array>
-	<key>New York Big Band Style</key>
+	<key>New York Big Band</key>
 	<array>
 		<integer>0</integer>
 		<integer>5</integer>

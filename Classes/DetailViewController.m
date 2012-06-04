@@ -87,8 +87,8 @@
     [self setCircleOfFifthsAccordingToMode];
     
     [lblCurrentKey setText:[NSString stringWithFormat: @"%@ %@", 
-                            [delegate.sharedNoteNames objectAtIndex:delegate.note],
-                            [delegate.sharedModeNames objectAtIndex:delegate.mode]]
+                delegate.currentNoteAndMode,
+                [delegate.sharedModeNames objectAtIndex:delegate.mode]]
      ];
 
     
