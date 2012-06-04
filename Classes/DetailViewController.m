@@ -21,7 +21,7 @@
 @synthesize detailDescriptionLabel=_detailDescriptionLabel;
 @synthesize popoverController=_myPopoverController;
 
-@synthesize templateView, lblCurrentKey, lblCurrentTemplate, lblCurrentTempo, volumeSlider; 
+@synthesize templateView, viewRow, lblCurrentKey, lblCurrentTemplate, lblCurrentTempo, volumeSlider; 
 @synthesize circleOfFifthPicker, circleOfFifths, delegate, modeNames, noteNames;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -199,18 +199,22 @@
     // return [circleOfFifths count];
 }
 
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
+}
+
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     return [circleOfFifths objectAtIndex:row];
 }    
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view {
-    UIView *viewRow = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    viewRow = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)] autorelease];
     
      CGAffineTransform rotate = CGAffineTransformMakeRotation(3.14/2);
      rotate = CGAffineTransformScale(rotate, 0.25, 2.0);
     
     CGRect rectDate = CGRectMake(0, 0, 60, 40);
-    UILabel *lblFifth = [[UILabel alloc]initWithFrame:rectDate];
+    lblFifth = [[UILabel alloc]initWithFrame:rectDate];
     [lblFifth setTransform:rotate];
     [lblFifth setText:[circleOfFifths objectAtIndex:(row%(circleOfFifthsCount))]];
     [lblFifth setFont:[UIFont boldSystemFontOfSize:32]];

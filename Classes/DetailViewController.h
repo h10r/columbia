@@ -29,6 +29,9 @@
     IBOutlet UIPickerView *circleOfFifthPicker;
                                                         
     NSMutableArray *itemArray;
+                                                        
+    UIView *viewRow;
+    UILabel *lblFifth;
 }
 
 @property (nonatomic, retain) AppDelegate *delegate;
@@ -44,7 +47,7 @@
 
 @property (nonatomic, retain) IBOutlet UISlider *volumeSlider;  
 
-@property (nonatomic, retain) IBOutlet UIView *templateView;
+@property (nonatomic, retain) IBOutlet UIView *templateView, *viewRow;
 
 @property (nonatomic, retain) UIPickerView *circleOfFifthPicker;
 
