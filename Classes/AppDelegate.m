@@ -28,7 +28,6 @@
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Templates" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistPath];    
     sharedTemplates = [[NSArray alloc] initWithArray:[dict allKeys]];    
-    
     //NSLog(@"%i", [sharedTemplates count]);
     
     /*

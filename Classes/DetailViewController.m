@@ -44,7 +44,7 @@
 }
 
 - (void) setCircleOfFifthsAccordingToMode {
-    NSLog(@"changed note names!");
+    //NSLog(@"changed note names!");
     
     if (delegate.mode == 1) {
         circleOfFifths = [[NSArray alloc] 
@@ -108,7 +108,7 @@
     }
     [lblCurrentTempo setText:strCurrentTempo ];
     
-    NSLog(@"%@", delegate.currentNoteAndMode);
+    //NSLog(@"%@", delegate.currentNoteAndMode);
     
     int i;
     int rightIndex = -1;

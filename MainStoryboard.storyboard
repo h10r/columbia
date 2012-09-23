@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="SkW-Fh-3Wi">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EKz-bu-kBj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="emn-Tb-WuS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Txx-7Q-7Bp" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mry-3F-mod">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
@@ -628,13 +625,13 @@
                         <outlet property="selectHighlight" destination="Ow8-hb-Fi4" id="kKD-bG-MxI"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emn-Tb-WuS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3801" y="-1590"/>
         </scene>
         <!--Detail View Controller - Columbia-->
         <scene sceneID="loN-UP-CoK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ep0-KA-EdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="0GX-Wa-6Sq" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="22U-hB-84l">
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
@@ -831,13 +828,13 @@
                         <outlet property="volumeSlider" destination="k62-Ab-frI" id="LoS-Dg-UHI"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ep0-KA-EdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3284" y="-2584"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DAv-Mq-m2k">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bcl-fh-x3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="VaG-WZ-dXN" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackOpaque" id="Bc6-ug-0BR">
@@ -848,13 +845,13 @@
                         <segue destination="0GX-Wa-6Sq" kind="relationship" relationship="rootViewController" id="jML-2g-Ctq"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcl-fh-x3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2856" y="-2584"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Ggg-9u-sD1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BtZ-T9-hyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <splitViewController id="SkW-Fh-3Wi" customClass="SplitViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -863,13 +860,13 @@
                         <segue destination="VaG-WZ-dXN" kind="relationship" relationship="masterViewController" id="ZC7-Mt-IZv"/>
                     </connections>
                 </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BtZ-T9-hyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1612" y="-2592"/>
         </scene>
         <!--Set Basic Key View Controller - Key-->
         <scene sceneID="nc8-QN-yEc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3sJ-Tr-zQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="z0K-X1-TU4" customClass="SetBasicKeyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zC3-FA-Ola">
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
@@ -931,13 +928,13 @@
                         <outlet property="noteOrFunctionToggle" destination="SBb-Ec-lyH" id="IsW-eW-eQ6"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sJ-Tr-zQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4035" y="-4384"/>
         </scene>
         <!--Set Template View Controller - Template-->
         <scene sceneID="6Vr-MX-K8t">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="clD-k0-mZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="PTH-Ut-2Xd" customClass="SetTemplateViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wjj-TL-1oC">
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
@@ -982,13 +979,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Template" id="4mM-Dk-VmC"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clD-k0-mZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4041" y="-3482"/>
         </scene>
         <!--Metronome View Controller - Metronome-->
         <scene sceneID="rd7-XW-lgO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x3z-eh-cZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="z0C-Tv-WXh" customClass="MetronomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DA4-vd-YU6">
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
@@ -1084,13 +1081,13 @@
                         <outlet property="visualSwitch" destination="eRC-5h-fRV" id="mIO-sZ-xh4"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3z-eh-cZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4041" y="-2584"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7lK-L4-pfu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="82u-8y-OdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="LSu-oi-YFI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
@@ -1103,6 +1100,7 @@
                         <segue destination="Txx-7Q-7Bp" kind="relationship" relationship="rootViewController" id="I83-fp-fHK"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="82u-8y-OdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2892" y="-1590"/>
         </scene>
@@ -1155,6 +1153,7 @@
                 <relationship kind="outlet" name="lblCurrentTempo" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="templateView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+                <relationship kind="outlet" name="viewRow" candidateClass="UIView"/>
                 <relationship kind="outlet" name="volumeSlider" candidateClass="UISlider"/>
             </relationships>
         </class>
